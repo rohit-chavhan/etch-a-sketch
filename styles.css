@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.container > div {
+    border: 1px solid black;
+    flex-grow: 1;
+    /* background-color: blue; */
+    /* opacity: 0.1; */
+}
+
+ label {
+    display: block;
+} 
+
+.container > div:hover {
+background-color: green ;
+}
+
